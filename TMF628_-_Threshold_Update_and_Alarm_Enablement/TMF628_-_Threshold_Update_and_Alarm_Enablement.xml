@@ -1,0 +1,78 @@
+<ObjectDefinition>
+  <variables frozen="0">
+    <variable displayName="Camera 1 Workflow Instance" name="params.camera1_wf_instance" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Camera 1</sections>
+      </sections>
+    </variable>
+    <variable displayName="enable Alarm" name="params.cam1_enableAlarm" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Camera 1</sections>
+      </sections>
+    </variable>
+    <variable displayName="Uplink Bitrate Threshold (bit/s)" name="params.cam_uplink_bitrate_threshold" startIncrement="0" type="Integer" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="1200000" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Camera 1</sections>
+      </sections>
+    </variable>
+    <variable displayName="Camera 2 Workflow Instance" name="params.camera2_wf_instance" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Camera 2</sections>
+      </sections>
+    </variable>
+    <variable displayName="enable Alarm" name="params.cam2_enableAlarm" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Camera 2</sections>
+      </sections>
+    </variable>
+    <variable displayName="Uplink Bitrate Threshold (bit/s)" name="params.cam2_uplink_bitrate_threshold" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="1200000" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Camera 2</sections>
+      </sections>
+    </variable>
+  </variables>
+  <example/>
+  <process name="Process/workflows/TMF628_-_Threshold_Update_and_Alarm_Enablement/Process_Camera_Workflow_Instance_Information">
+    <displayName>Camera Workflow Instance Information</displayName>
+    <type>CREATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Task_Accept_Parameters.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_-_Threshold_Update_and_Alarm_Enablement/Process_Camera_Workflow_Instance_Information/Tasks</processPath>
+      <displayName>Accept Parameters</displayName>
+    </task>
+  </process>
+  <process name="Process/workflows/TMF628_-_Threshold_Update_and_Alarm_Enablement/Process_Update_Threshold_Limit_and_Alarm_Triggering">
+    <displayName>Update Threshold Limit and Alarm Triggering</displayName>
+    <type>UPDATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Task_Update_Threshold_Limit_for_Camera_1.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_-_Threshold_Update_and_Alarm_Enablement/Process_Update_Threshold_Limit_and_Alarm_Triggering/Tasks</processPath>
+      <displayName>Update Threshold Limit for Camera 1</displayName>
+    </task>
+    <task name="Task_Update_Threshold_Limit_for_Camera_2.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_-_Threshold_Update_and_Alarm_Enablement/Process_Update_Threshold_Limit_and_Alarm_Triggering/Tasks</processPath>
+      <displayName>Update Threshold Limit for Camera 2</displayName>
+    </task>
+    <task name="Task_Update_Alarm_Triggering_for_Camera_1.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_-_Threshold_Update_and_Alarm_Enablement/Process_Update_Threshold_Limit_and_Alarm_Triggering/Tasks</processPath>
+      <displayName>Update Alarm Triggering for Camera 1</displayName>
+    </task>
+    <task name="Task_Update_Alarm_Triggering_for_Camera_2.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_-_Threshold_Update_and_Alarm_Enablement/Process_Update_Threshold_Limit_and_Alarm_Triggering/Tasks</processPath>
+      <displayName>Update Alarm Triggering for Camera 2</displayName>
+    </task>
+  </process>
+  <information>
+    <icon/>
+    <description/>
+    <displayField>service_id</displayField>
+    <serviceTaskType>python</serviceTaskType>
+    <order>10000</order>
+    <visibility>5</visibility>
+    <processToAssiocateToTrashIcon/>
+    <name>TMF628 - Threshold Update &amp; Alarm Enablement</name>
+    <group/>
+  </information>
+</ObjectDefinition>

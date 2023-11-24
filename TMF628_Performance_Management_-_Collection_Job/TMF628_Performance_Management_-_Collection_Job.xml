@@ -1,0 +1,63 @@
+<ObjectDefinition>
+  <variables frozen="0">
+    <variable displayName="collection job oauth2 token url" name="params.collection_job_oauth2_token_url" startIncrement="0" type="Link" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="https://login.microsoftonline.com/e741d71c-c6b6-47b0-803c-0f3b32b07556/oauth2/v2.0/token" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="collection_job_client_id" name="params.collection_job_client_id" startIncrement="0" type="Password" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="3e26b64c-af39-429b-9742-2571e28a9a58" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="collection_job_client_secret" name="params.collection_job_client_secret" startIncrement="0" type="Password" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="Bnt8Q~wm4J_fPYaOnqCmPEuZt0SSN.xc1xR8Bcah" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="CollectionJob_url" name="params.CollectionJob_url" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="dataAccessEndpoint" name="params.dataAccessEndpoint" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example/>
+  <process name="Process/workflows/TMF628_Performance_Management_-_Collection_Job/Process_Register_Client_Secret_Authentication">
+    <displayName>Register Client Secret Authentication</displayName>
+    <type>CREATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Task_Accept_Parameters.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management_-_Collection_Job/Process_Register_Client_Secret_Authentication/Tasks</processPath>
+      <displayName>Accept Parameters</displayName>
+    </task>
+  </process>
+  <process name="Process/workflows/TMF628_Performance_Management_-_Collection_Job/Process_Get_Token_Verification">
+    <displayName>Get Token Verification</displayName>
+    <type>UPDATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Task_Get_Token.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management_-_Collection_Job/Process_Get_Token_Verification/Tasks</processPath>
+      <displayName>Get Token</displayName>
+    </task>
+  </process>
+  <process name="Process/workflows/TMF628_Performance_Management_-_Collection_Job/Process_GET_-_measurementCollectionJob">
+    <displayName>GET - measurementCollectionJob</displayName>
+    <type>UPDATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Process/workflows/TMF628_Performance_Management_-_Collection_Job/Process_Get_Token_Verification/Tasks/Task_Get_Token.py">
+      <processPath></processPath>
+      <displayName>Get Token</displayName>
+    </task>
+    <task name="Task_Get_measurementCollectionJob_Data.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management_-_Collection_Job/Process_GET_-_measurementCollectionJob/Tasks</processPath>
+      <displayName>Get measurementCollectionJob Data</displayName>
+    </task>
+    <task name="Task_Retrieve_dataAccessEndpoint.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management_-_Collection_Job/Process_GET_-_measurementCollectionJob/Tasks</processPath>
+      <displayName>Retrieve dataAccessEndpoint</displayName>
+    </task>
+    <task name="Task_Trigger_Measurement_Collection.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management_-_Collection_Job/Process_GET_-_measurementCollectionJob/Tasks</processPath>
+      <displayName>Trigger Measurement Collection</displayName>
+    </task>
+  </process>
+  <information>
+    <icon/>
+    <description/>
+    <displayField>service_id</displayField>
+    <serviceTaskType>python</serviceTaskType>
+    <order>10000</order>
+    <visibility>5</visibility>
+    <processToAssiocateToTrashIcon/>
+    <name>TMF628 Performance Management - Collection Job</name>
+    <group/>
+  </information>
+</ObjectDefinition>

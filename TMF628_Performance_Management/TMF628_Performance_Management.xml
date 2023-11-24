@@ -1,0 +1,325 @@
+<ObjectDefinition>
+  <variables frozen="0">
+    <variable displayName="oauth2 token url" name="params.oauth2_token_url" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="true" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="https://login.microsoftonline.com/e741d71c-c6b6-47b0-803c-0f3b32b07556/oauth2/v2.0/token" isMandatory="true" isUserLocked="false" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Performance Measurement API</sections>
+      </sections>
+    </variable>
+    <variable displayName="client id" name="params.client_id" startIncrement="0" type="Password" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="true" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="8ee02084-ec83-435e-b459-7c539aee5e5f" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Performance Measurement API</sections>
+      </sections>
+    </variable>
+    <variable displayName="client secret" name="params.client_secret" startIncrement="0" type="Password" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="true" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="mFt8Q~l_otd~qbuYH12h92vSaKCXLNdAYhobBbFG" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Performance Measurement API</sections>
+      </sections>
+    </variable>
+    <variable displayName="performance measurement url" name="params.performance_measurement_url" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="true" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="https://dsicatalystperformancemeasurement.nprd-gw.cloud.att.com/insight/performanceMeasurement?" isMandatory="true" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Performance Measurement API</sections>
+      </sections>
+    </variable>
+    <variable displayName="primary keys search" name="params.performance_measurement.0.primary_key" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="260" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="true" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Performance Measurement API</sections>
+      </sections>
+    </variable>
+    <variable displayName="primary key search" name="params.primary_key_search" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="260" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Performance Measurement API</sections>
+      </sections>
+    </variable>
+    <variable displayName="collection job oauth2 token url" name="params.collection_job_oauth2_token_url" startIncrement="0" type="Link" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="true" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="https://login.microsoftonline.com/e741d71c-c6b6-47b0-803c-0f3b32b07556/oauth2/v2.0/token" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Collection Job</sections>
+      </sections>
+    </variable>
+    <variable displayName="collection job client id" name="params.collection_job_client_id" startIncrement="0" type="Password" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="true" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="3e26b64c-af39-429b-9742-2571e28a9a58" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Collection Job</sections>
+      </sections>
+    </variable>
+    <variable displayName="collection job client secret" name="params.collection_job_client_secret" startIncrement="0" type="Password" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="true" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="Bnt8Q~wm4J_fPYaOnqCmPEuZt0SSN.xc1xR8Bcah" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Collection Job</sections>
+      </sections>
+    </variable>
+    <variable displayName="CollectionJob_url" name="params.CollectionJob_url" startIncrement="0" type="Link" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="true" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="https://dsicatalystcollectionjobgateway.nprd-gw.cloud.att.com/insight" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Collection Job</sections>
+      </sections>
+    </variable>
+    <variable displayName="dataAccessEndpoint" name="params.dataAccessEndpoint" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Collection Job</sections>
+      </sections>
+    </variable>
+    <variable displayName="dataAccessEndpoint1" name="params.dataAccessEndpoint1" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Collection Job</sections>
+      </sections>
+    </variable>
+    <variable displayName="name" name="params.collection_job.0.name" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Collection job</sections>
+      </sections>
+    </variable>
+    <variable displayName="description" name="params.collection_job.0.description" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" validationRegex="" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Collection job</sections>
+      </sections>
+    </variable>
+    <variable displayName="key" name="params.performanceIndicatorSpecification.0.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>performance Indicator Specification</sections>
+      </sections>
+    </variable>
+    <variable displayName="value" name="params.performanceIndicatorSpecification.0.description" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>performance Indicator Specification</sections>
+      </sections>
+    </variable>
+    <variable displayName="key" name="params.reportingSystem.0.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>reporting System</sections>
+      </sections>
+    </variable>
+    <variable displayName="value" name="params.reportingSystem.0.description" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>reporting System</sections>
+      </sections>
+    </variable>
+    <variable displayName="key" name="params.dataAccessEndpoint3.0.key" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Data Access Endpoint  </sections>
+      </sections>
+    </variable>
+    <variable displayName="value" name="params.dataAccessEndpoint3.0.value" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Data Access Endpoint  </sections>
+      </sections>
+    </variable>
+    <variable displayName="key" name="params.sourceSystem.0.key" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>source System</sections>
+      </sections>
+    </variable>
+    <variable displayName="value" name="params.sourceSystem.0.value" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>source System</sections>
+      </sections>
+    </variable>
+    <variable displayName="key" name="params.PerformanceIndicatorSpecification0.0.key" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Performance Indicator Specification #0</sections>
+      </sections>
+    </variable>
+    <variable displayName="value" name="params.PerformanceIndicatorSpecification0.0.value" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Performance Indicator Specification #0</sections>
+      </sections>
+    </variable>
+    <variable displayName="key" name="params.PerformanceIndicatorSpecification1.0.key" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Performance Indicator Specification #1</sections>
+      </sections>
+    </variable>
+    <variable displayName="value" name="params.PerformanceIndicatorSpecification1.0.value" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Performance Indicator Specification #1</sections>
+      </sections>
+    </variable>
+    <variable displayName="key" name="params.PerformanceIndicatorSpecification2.0.key" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Performance Indicator Specification #2</sections>
+      </sections>
+    </variable>
+    <variable displayName="value" name="params.PerformanceIndicatorSpecification2.0.value" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Performance Indicator Specification #2</sections>
+      </sections>
+    </variable>
+    <variable displayName="key" name="params.PerformanceIndicatorSpecification3.0.key" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Performance Indicator Specification #3</sections>
+      </sections>
+    </variable>
+    <variable displayName="value" name="params.PerformanceIndicatorSpecification3.0.value" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Performance Indicator Specification #3</sections>
+      </sections>
+    </variable>
+    <variable displayName="Enable Alarm Triggering " name="params.enableAlarm" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="label" name="params.label" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="uplink bitrate threshold limit" name="params.uplink_bitrate_threshold" startIncrement="0" type="Integer" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="1200000" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example/>
+  <process name="Process/workflows/TMF628_Performance_Management/Process_Register_Client_Secret_Authentication">
+    <displayName>Register Client Secret Authentication</displayName>
+    <type>CREATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Task_Accept_Parameters.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management/Process_Register_Client_Secret_Authentication/Tasks</processPath>
+      <displayName>Accept Parameters</displayName>
+    </task>
+  </process>
+  <process name="Process/workflows/TMF628_Performance_Management/Process_TMF628_Performance_Management_e2e">
+    <displayName>TMF628 Performance Management (e2e)</displayName>
+    <type>UPDATE</type>
+    <visibility>5</visibility>
+    <allowSchedule>true</allowSchedule>
+    <task name="Process/workflows/TMF628_Performance_Management/Process_Collection_Job_-_Get_Token_Verification/Tasks/Task_Get_Token.py">
+      <processPath></processPath>
+      <displayName>Get Collection Job Token</displayName>
+    </task>
+    <task name="Process/workflows/TMF628_Performance_Management/Process_measurementCollectionJob/Tasks/Task_Get_measurementCollectionJob_Data.py">
+      <processPath></processPath>
+      <displayName>Get measurementCollectionJob Data</displayName>
+    </task>
+    <task name="Task_Retrieve_dataAccessEndpoint.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management/Process_TMF628_Performance_Management_e2e/Tasks</processPath>
+      <displayName>Retrieve dataAccessEndpoint</displayName>
+    </task>
+    <task name="Process/workflows/TMF628_Performance_Management/Process_Measurement_Collection/Tasks/Task_Get_OAuth_Token.py">
+      <processPath></processPath>
+      <displayName>Get Measurement Collection Token</displayName>
+    </task>
+    <task name="Process/workflows/TMF628_Performance_Management/Process_Measurement_Collection/Tasks/Task_Retrieve_Performance_Measurement.py">
+      <processPath></processPath>
+      <displayName>Retrieve Performance Measurement</displayName>
+    </task>
+    <task name="Task_Update_User_Equipment__quality_state.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management/Process_TMF628_Performance_Management_e2e/Tasks</processPath>
+      <displayName>Update User Equipment  quality state</displayName>
+    </task>
+    <task name="Process/workflows/TMF628_Performance_Management/Process_Create_Alarm/Tasks/Task_Check_threshold_to_trigger_Alarm.py">
+      <processPath></processPath>
+      <displayName>Check Threshold &amp; Trigger Alarm</displayName>
+    </task>
+    <task name="Process/workflows/TMF628_Performance_Management/Process_Measurement_Collection/Tasks/Task_Store_Data.py">
+      <processPath></processPath>
+      <displayName>Store Data</displayName>
+    </task>
+  </process>
+  <process name="Process/workflows/TMF628_Performance_Management/Process_Update_Threshold_Limit">
+    <displayName>Update uplink bitrate Threshold Limit</displayName>
+    <type>UPDATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Task_Update_Threshold_Limit__for_data_collection_Analysis.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management/Process_Update_Threshold_Limit/Tasks</processPath>
+      <displayName>Update Threshold Limit  for data collection Analysis</displayName>
+    </task>
+    <task name="Task_Dashboard_threshold_limit_update.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management/Process_Update_Threshold_Limit/Tasks</processPath>
+      <displayName>Dashboard threshold limit update</displayName>
+    </task>
+  </process>
+  <process name="Process/workflows/TMF628_Performance_Management/Process_Measurement_Collection">
+    <displayName>Performance Measurement Collection</displayName>
+    <type>UPDATE</type>
+    <visibility>5</visibility>
+    <allowSchedule>true</allowSchedule>
+    <task name="Process/workflows/TMF628_Performance_Management/Process_Measurement_Collection/Tasks/Task_Get_OAuth_Token.py">
+      <processPath></processPath>
+      <displayName>Get OAuth Token</displayName>
+    </task>
+    <task name="Process/workflows/TMF628_Performance_Management/Process_Measurement_Collection/Tasks/Task_Retrieve_Performance_Measurement.py">
+      <processPath></processPath>
+      <displayName>Retrieve Performance Measurement</displayName>
+    </task>
+    <task name="Process/workflows/TMF628_Performance_Management/Process_Measurement_Collection/Tasks/Task_Store_Data.py">
+      <processPath></processPath>
+      <displayName>Store Data</displayName>
+    </task>
+  </process>
+  <process name="Process/workflows/TMF628_Performance_Management/Process_Measurement_Collection__Looping_">
+    <displayName>Performance Measurement Collection (Looping)</displayName>
+    <type>UPDATE</type>
+    <visibility>5</visibility>
+    <allowSchedule>true</allowSchedule>
+    <task name="Process/workflows/TMF628_Performance_Management/Process_Measurement_Collection/Tasks/Task_Get_OAuth_Token.py">
+      <processPath></processPath>
+      <displayName>Get Auth OAuth Token</displayName>
+    </task>
+    <task name="Task_Retrieve_Performance_Measurement__Looping_.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management/Process_Measurement_Collection__Looping_/Tasks</processPath>
+      <displayName>Retrieve Performance Measurement (Looping)</displayName>
+    </task>
+    <task name="Task_Store_Data__Looping_.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management/Process_Measurement_Collection__Looping_/Tasks</processPath>
+      <displayName>Store Data (Looping)</displayName>
+    </task>
+  </process>
+  <process name="Process/workflows/TMF628_Performance_Management/Process_Get_Token_Verification">
+    <displayName>Performance Measurement - Get Token Verification</displayName>
+    <type>UPDATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Process/workflows/TMF628_Performance_Management/Process_Measurement_Collection/Tasks/Task_Get_OAuth_Token.py">
+      <processPath></processPath>
+      <displayName>Get Token Check</displayName>
+    </task>
+  </process>
+  <process name="Process/workflows/TMF628_Performance_Management/Process_Collection_Job_-_Get_Token_Verification">
+    <displayName>Collection Job - Get Token Verification</displayName>
+    <type>UPDATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Task_Get_Token.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management/Process_Collection_Job_-_Get_Token_Verification/Tasks</processPath>
+      <displayName>Get Token</displayName>
+    </task>
+  </process>
+  <process name="Process/workflows/TMF628_Performance_Management/Process_measurementCollectionJob">
+    <displayName>measurementCollectionJob</displayName>
+    <type>UPDATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Process/workflows/TMF628_Performance_Management/Process_Collection_Job_-_Get_Token_Verification/Tasks/Task_Get_Token.py">
+      <processPath></processPath>
+      <displayName>Get Token</displayName>
+    </task>
+    <task name="Task_Get_measurementCollectionJob_Data.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management/Process_measurementCollectionJob/Tasks</processPath>
+      <displayName>Get measurementCollectionJob Data</displayName>
+    </task>
+    <task name="Process/workflows/TMF628_Performance_Management/Process_TMF628_Performance_Management_e2e/Tasks/Task_Retrieve_dataAccessEndpoint.py">
+      <processPath></processPath>
+      <displayName>Retrieve Data Access End Point</displayName>
+    </task>
+  </process>
+  <process name="Process/workflows/TMF628_Performance_Management/Process_Create_Alarm">
+    <displayName>Create Alarm</displayName>
+    <type>UPDATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Task_Check_threshold_to_trigger_Alarm.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management/Process_Create_Alarm/Tasks</processPath>
+      <displayName>Check threshold to trigger Alarm</displayName>
+    </task>
+  </process>
+  <process name="Process/workflows/TMF628_Performance_Management/Process_Update_Alarm_Triggering">
+    <displayName>Update Alarm Triggering</displayName>
+    <type>UPDATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Task_Update.py">
+      <processPath>/opt/fmc_repository/Process/workflows/TMF628_Performance_Management/Process_Update_Alarm_Triggering/Tasks</processPath>
+      <displayName>Update</displayName>
+    </task>
+  </process>
+  <information>
+    <icon/>
+    <description/>
+    <displayField>label</displayField>
+    <serviceTaskType>python</serviceTaskType>
+    <order>10000</order>
+    <visibility>5</visibility>
+    <processToAssiocateToTrashIcon/>
+    <name>TMF628 Performance Management</name>
+    <group/>
+  </information>
+</ObjectDefinition>
